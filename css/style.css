@@ -60,6 +60,8 @@ html {
 
 .section-two-container > .btn {
   background-color: #3144ad;
+  text-decoration: none;
+  color: black;
   flex: 1;
   box-sizing: border-box;
   width: 100%;
@@ -83,7 +85,7 @@ html {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  background-color: #536cf5;
+  background-color: #46bfef;
   display: flex;
   flex-direction: column;
 }
@@ -112,7 +114,7 @@ html {
 
 .home-image {
   width: 70%;
-  max-height: 315px;
+  max-height: 280px;
   flex: 1;
 }
 
