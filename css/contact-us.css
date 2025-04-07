@@ -24,3 +24,28 @@ a {
   padding-left: 20px;
   font-size: larger;
 }
+
+.form-div {
+  padding-left: 100px;
+}
+
+.row {
+  margin-top: 10px;
+}
+
+input {
+  margin-left: 20px;
+}
+
+.radio-set {
+  margin-top: 0;
+  margin-left: 65px;
+}
+
+.radio-one {
+  margin-left: 20px;
+}
+
+.radio-two {
+  margin-left: 20px;
+}
