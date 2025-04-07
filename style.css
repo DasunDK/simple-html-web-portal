@@ -11,6 +11,7 @@ html {
   flex-direction: column;
   height: 100vh;
   width: 100vw;
+  border: 10px solid black;
 }
 
 .row1 {
@@ -25,7 +26,7 @@ html {
 
 .row3 {
   flex: 10;
-  background-color: red;
+  background-color: white;
 }
 
 .row4 {
@@ -61,7 +62,7 @@ html {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  font: bold 30px "Open Sans", sans-serif;
+  font: bold 2vw "Open Sans", sans-serif;
   text-align: center;
   padding-top: 5px;
 }
@@ -73,4 +74,44 @@ html {
 
 .section-two-container-active {
   background-color: white !important;
+}
+
+/* home section style  */
+.home-container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background-color: #536cf5;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-title {
+  text-align: center;
+  color: rgb(36, 5, 5);
+  font: bold 40px "Open Sans", sans-serif;
+  margin: 0;
+}
+
+.home-para {
+  color: rgb(36, 5, 5);
+  font: 40px "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.image-container {
+  width: 100%;
+  /* height: 100%; */
+  /* background-color: red; */
+  text-align: center;
+  flex: 1;
+  overflow: hidden;
+}
+
+.home-image {
+  padding: 10px;
+  width: 70%;
+  max-height: 300px;
+  flex: 1;
 }
