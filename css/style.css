@@ -21,7 +21,7 @@ html {
 
 .row2 {
   flex: 2;
-  background-color: white;
+  background-color: rgb(234, 215, 215);
 }
 
 .row3 {
@@ -77,7 +77,7 @@ html {
 }
 
 .section-two-container-active {
-  background-color: white !important;
+  background-color: rgb(234, 215, 215) !important;
 }
 
 /* home section style  */
