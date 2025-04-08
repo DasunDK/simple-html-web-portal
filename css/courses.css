@@ -45,3 +45,10 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.right-li {
+  background-color: transparent !important;
+  list-style: square;
+  padding: 0;
+  font-size: 30px;
+}
